@@ -50,6 +50,7 @@ fanluc --help
 # 5
 
 Current version: 2.4.1
+
 Previous version: 2.4.0
 
 Added:
