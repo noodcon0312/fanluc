@@ -1,0 +1,30 @@
+# Run the app + AI workspace in a locked-down container:
+#   docker compose up --build
+services:
+  fanluc:
+    build: .
+    ports:
+      - "3000:3000"
+    env_file:
+      - path: .env          # API keys stay here; run_cmd children never see them
+        required: false
+    volumes:
+      - workspace:/workspace   # the ONLY persistent place the AI can write
+    security_opt:
+      - no-new-privileges:true
+    cap_drop: [ALL]
+    cap_add:                    # minimum for: dropping to uid 10001, chown uploads, apt allowlist
+      - SETUID
+      - SETGID
+      - CHOWN
+      - DAC_OVERRIDE
+      - FOWNER
+      - FSETID
+    pids_limit: 512
+    mem_limit: 2g
+    cpus: 2
+    tmpfs:
+      - /tmp:size=256m
+    restart: unless-stopped
+volumes:
+  workspace:

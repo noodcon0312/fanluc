@@ -1,0 +1,23 @@
+use_default_settings: true
+search:
+  formats: [html, json]
+server:
+  secret_key: "doi-cai-nay-thay-bang-random-string"
+  limiter: false
+  image_proxy: true
+  method: "POST"
+  default_http_headers:
+    X-Content-Type-Options: nosniff
+    X-XSS-Protection: 1; mode=block
+    X-Download-Options: noopen
+    X-Robots-Tag: noindex, nofollow
+    Referrer-Policy: no-referrer
+ui:
+  static_use_hash: true
+outgoing:
+  request_timeout: 5.0
+  max_request_timeout: 15.0
+  retries: 1
+  retry_sleep: 1.0
+  retries_sleep: 1.0
+  enable_http: true
