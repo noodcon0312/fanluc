@@ -43,8 +43,8 @@ fanluc --help
 ---
 # 4
 
-Main site (beta): link_here
-Interface testing site: link_here
+- Main site (beta): link_here
+- Interface testing site: link_here
 
 ---
 # 5
@@ -79,6 +79,7 @@ Claude (Opus):
 
 OpenCode (Muse Spark):
 +, Error checking
+
 ---
 # 7
 
