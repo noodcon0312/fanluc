@@ -909,7 +909,7 @@ async function startServer() {
       const headers: Record<string, string> = {
         "Content-Type": "application/json",
         "ngrok-skip-browser-warning": "true",
-        "User-Agent": "fanluc/2.4.0",
+        "User-Agent": "fanluc/2.4.1",
         "Authorization": `Bearer ${apiKey || ""}`,
         ...(customHeaders || {}),
       };

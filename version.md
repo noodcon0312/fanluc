@@ -1,4 +1,9 @@
-2.4.0
+2.4.1
+
+---
+
+Patch: replaced the npm/GitHub README with the new project page (+0.0.1: 2.4.0 -> 2.4.1).
+No code changes.
 
 ---
 

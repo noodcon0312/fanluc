@@ -2,5 +2,5 @@
   "name": "fanluc",
   "description": "Self-hosted AI chat with a classic black-and-white terminal style. Custom REST API endpoint.",
   "author": "mondk",
-  "version": "2.4.0"
+  "version": "2.4.1"
 }

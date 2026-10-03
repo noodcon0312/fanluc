@@ -49,18 +49,17 @@ fanluc --help
 ---
 # 5
 
-Current version: 2.4.0
-Previous version: 2.0.0
+Current version: 2.4.1
+Previous version: 2.4.0
 
 Added:
-+ New interface design
-+ Several new features
++ New npm README
 
 Changed:
-- Fixed buggy functions
+- (none)
 
 Removed:
-- Unnecessary files
+- (none)
 
 ---
 # 6
