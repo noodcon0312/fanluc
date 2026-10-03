@@ -1,6 +1,6 @@
 Fanluc is a harness agent similar to Claude Code or OpenCode, but optimized for local models.
-1. a. Pros
-b. Cons
+1. + a. Pros
+   + b. Cons
 2. Links
 3. Usage
 4. Demo
@@ -66,19 +66,19 @@ Removed:
 # 6
 
 mondk:
-+, System prompt optimization
-+, UI design
-+, Other minor tasks
++ System prompt optimization
++ UI design
++ Other minor tasks
 
 AI Studio (Gemini):
-+, Wrote the easier sections
++ Wrote the easier sections
 
 Claude (Opus):
-+, Feedback and debugging
-+, Wrote the complex sections
++ Feedback and debugging
++ Wrote the complex sections
 
 OpenCode (Muse Spark):
-+, Error checking
++ Error checking
 
 ---
 # 7
