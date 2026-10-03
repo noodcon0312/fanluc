@@ -9,7 +9,7 @@ b. Cons
 7. Conclusion
 
 ---
-*1*
+# 1
 
 **a. Pros**
 - Fanluc features tools/cards similar to the Claude web interface but allows you to run them with free models.
@@ -17,13 +17,13 @@ b. Cons
 **b. Cons**
 - May still contain some bugs.
 ---
-*2*
+# 2
 
 Fanluc is available at:
-NPM: https://www.npmjs.com/package/fanluc
-GitHub: https://github.com/noodcon0312/fanluc
+- NPM: https://www.npmjs.com/package/fanluc
+- GitHub: https://github.com/noodcon0312/fanluc
 ---
-*3*
+# 3
 
 Install:
 ```
@@ -41,13 +41,13 @@ fanluc --help
 ```
 
 ---
-*4*
+# 4
 
 Main site (beta): link_here
 Interface testing site: link_here
 
 ---
-*5*
+# 5
 
 Current version: 2.4.0
 Previous version: 2.0.0
@@ -63,7 +63,7 @@ Removed:
 - Unnecessary files
 
 ---
-*6*
+# 6
 
 mondk:
 +, System prompt optimization
@@ -80,6 +80,6 @@ Claude (Opus):
 OpenCode (Muse Spark):
 +, Error checking
 ---
-*7*
+# 7
 
 ty!
